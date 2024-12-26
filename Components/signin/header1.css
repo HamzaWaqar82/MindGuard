@@ -1,0 +1,65 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header .logo::before {
+    content: "■";
+    font-size: 1.2rem;
+}
+
+.slogan {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 4px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .sign-btn {
+    background-color: #4c65af;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+header .emergency-btn {
+    background-color: #4c65af;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}

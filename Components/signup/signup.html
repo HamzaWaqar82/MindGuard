@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindGuard Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="../signin/header1.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <strong>MindGuard</strong>
+            <div class="slogan">Your AI SafeGuard</div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="../chat/chat.html">Chat</a>
+            <a href="#">Features</a>
+            <a href="#">Support</a>
+            <button class="emergency-btn">Emergency</button>
+            <button class="sign-btn">Sign-up / Sign-in</button>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="left-section">
+            <h1>MindGuard</h1>
+            <p>An AI-driven emotion and cognitive state analysis to detect elevated stress levels.</p>
+        </div>
+        <div class="right-section">
+            <form id="signup-form">
+                <h2>Create Account</h2>
+                <div class="social-signup">
+                    <button type="button" class="social-btn" id="google-btn">Sign up with Google</button>
+                    <button type="button" class="social-btn" id="facebook-btn">Sign up with Facebook</button>
+                </div>
+                <p class="divider">— OR —</p>
+                <input type="text" placeholder="Full Name" id="fullname" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <button type="submit" class="create-btn">Create Account</button>
+                <p>Already have an account? <a href="../signin/signin.html">Login Here</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>

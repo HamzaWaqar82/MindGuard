@@ -1,0 +1,47 @@
+/* Import base styles */
+@import url('../signin/signin.css');
+
+/* Additional styles for signup page */
+.social-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #f5f5f5;
+}
+
+.divider {
+    color: #666;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.create-btn {
+    margin-top: 10px;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+input {
+    margin-bottom: 15px;
+} 

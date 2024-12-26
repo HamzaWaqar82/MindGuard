@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindGuard - Profile</title>
+    <link rel="stylesheet" href="../signin/header1.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <strong>MindGuard</strong>
+            <div class="slogan">Your AI SafeGuard</div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="../chat/chat.html">Chat</a>
+            <a href="#">Dashboard</a>
+            <a href="#">Support</a>
+            <a href="#">Manage Alerts</a>
+            <a href="#">Add Device</a>
+            <button class="profile-btn active">Profile</button>
+            <button class="emergency-btn">Emergency</button>
+            <img src="../assets/profile-pic.jpg" alt="Profile" class="profile-pic">
+        </nav>
+    </header>
+
+    <main class="profile-container">
+        <h1>Real-time EEG Monitoring</h1>
+        <p class="subtitle">Stay safe with our AI-powered stress detection and emergency alert system.</p>
+
+        <section class="profile-section">
+            <h2>Your Profile</h2>
+            <div class="form-group">
+                <div class="name-group">
+                    <div>
+                        <label>Update First name</label>
+                        <input type="text" placeholder="First name" id="firstName">
+                    </div>
+                    <div>
+                        <label>Update Last name</label>
+                        <input type="text" placeholder="Last name" id="lastName">
+                    </div>
+                </div>
+                <div>
+                    <label>Update Phone number</label>
+                    <input type="tel" placeholder="(123) 123-1234" id="phone">
+                </div>
+                <div>
+                    <label>Update Email address</label>
+                    <input type="email" placeholder="you@example.com" id="email">
+                </div>
+                <button class="update-btn">Update Profile</button>
+                <button class="view-data-btn">View Personal Data</button>
+                <button class="backup-btn">Back-up Personal Data</button>
+            </div>
+        </section>
+
+        <section class="emergency-contacts">
+            <h2>Add Emergency Contacts</h2>
+            <div class="form-group">
+                <div class="name-group">
+                    <div>
+                        <label>First name</label>
+                        <input type="text" placeholder="First name" id="emergencyFirstName">
+                    </div>
+                    <div>
+                        <label>Last name</label>
+                        <input type="text" placeholder="Last name" id="emergencyLastName">
+                    </div>
+                </div>
+                <div>
+                    <label>Emergency Phone number</label>
+                    <input type="tel" placeholder="(123) 123-1234" id="emergencyPhone">
+                </div>
+                <div>
+                    <label>Emergency Email address</label>
+                    <input type="email" placeholder="you@example.com" id="emergencyEmail">
+                </div>
+                <button class="add-contact-btn">Add Contact</button>
+            </div>
+        </section>
+
+        <section class="alert-preferences">
+            <h2>Alert Preferences</h2>
+            <div class="preferences-group">
+                <label class="checkbox-container">
+                    <input type="checkbox" checked id="emailAlert">
+                    <span class="checkmark"></span>
+                    Email
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" id="smsAlert">
+                    <span class="checkmark"></span>
+                    SMS
+                </label>
+                <label class="checkbox-container">
+                    <input type="checkbox" id="appAlert">
+                    <span class="checkmark"></span>
+                    App notification
+                </label>
+                <button class="save-preferences-btn">Save Changes</button>
+            </div>
+        </section>
+
+        <section class="account-settings">
+            <h2>Account Settings</h2>
+            <div class="settings-group">
+                <button class="deactivate-btn">Deactivate Account Temporarily</button>
+                <p class="info-text">It will temporarily hibernate your account. You can easily activate your account
+                    again whenever you want</p>
+                <button class="delete-btn">Delete Account Permanently</button>
+                <p class="info-text">It will delete your account permanently and your personal data in your account. You
+                    will not be able to access your account again.</p>
+                    <button class="logout-btn">Logout Account</button>
+            </div>
+        </section>
+    </main>
+    <script src="profile.js"></script>
+</body>
+
+</html>
